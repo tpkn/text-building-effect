@@ -1,4 +1,4 @@
-/**
+/*!
  * Text Building Effect (v1.0.1.20170117), http://tpkn.me/
  */
 
