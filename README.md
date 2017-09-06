@@ -18,6 +18,7 @@ var config = {
 var tbe = new TextBuildingEffect(config);
     tbe.build('Hello world!');
 ```
+<br />
 
 ##### Usage (short)
 
@@ -25,6 +26,7 @@ var tbe = new TextBuildingEffect(config);
 var tbe = new TextBuildingEffect({div: document.getElementById('text')});
     tbe.build('Hello world!');
 ```
+<br />
 
 
 ### Settings
@@ -36,10 +38,12 @@ var tbe = new TextBuildingEffect({div: document.getElementById('text')});
     - _default = 15_
 - `remove_speed`: removing old text speed
     - _default = 15_
+<br />
 
 ### Replace mode
 ![replacing](https://github.com/tpkn/text-building-effect/blob/master/replacing.gif)
 
+<br />
 
 ### Change Log
  - v1.1.20170217 - acceleration replaced by `easeInOutCubic` easing
