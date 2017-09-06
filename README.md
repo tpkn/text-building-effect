@@ -18,7 +18,6 @@ var config = {
 var tbe = new TextBuildingEffect(config);
     tbe.build('Hello world!');
 ```
-<br />
 
 ##### Usage (short)
 
