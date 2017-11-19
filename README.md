@@ -4,7 +4,7 @@ A small plugin that makes text changing less lame than usual.
 ![caret](https://github.com/tpkn/text-building-effect/blob/master/caret.gif)
 
 
-### Usage (long)
+## Usage (long)
 
 ```javascript
 var config = {
@@ -19,16 +19,15 @@ var tbe = new TextBuildingEffect(config);
     tbe.build('Hello world!');
 ```
 
-##### Usage (short)
+#### Usage (short)
 
 ```javascript
 var tbe = new TextBuildingEffect({div: document.getElementById('text')});
     tbe.build('Hello world!');
 ```
-<br />
 
 
-### Settings
+## Settings
 - `div`: container which _**innerHTML**_ property would be used for our text transformations
 - `caret`: any symbol that would be placed at the end of text **|**
     - if not set, tool runs in **Replace mode**
@@ -37,13 +36,11 @@ var tbe = new TextBuildingEffect({div: document.getElementById('text')});
     - _default = 15_
 - `remove_speed`: removing old text speed
     - _default = 15_
-<br />
 
-### Replace mode
+## Replace mode
 ![replacing](https://github.com/tpkn/text-building-effect/blob/master/replacing.gif)
 
-<br />
 
-### Change Log
+## Change Log
  - v1.1.20170217 - acceleration replaced by `easeInOutCubic` easing
  - v1.0.20161111
